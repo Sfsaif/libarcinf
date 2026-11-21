@@ -15,6 +15,7 @@ add_library(arcinf SHARED
     src/video.cpp
     src/autoplay.cpp
     src/security.cpp
+    src/potential.cpp
 )
 
 target_include_directories(arcinf PRIVATE src)
